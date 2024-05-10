@@ -12,3 +12,7 @@ A Docker container is self-contained and it encapsulates everything needed to ru
 
 Contains Dockerfile, docker build and run command for a Jupyter Notebook with Python kernel.
 I used a Debian (debian-slim) base image as I use debian Docker environment to run most of my applications.
+
+## nodejs-typescript/
+
+Contains Dockerfile, docker build and run command for a Jupyter Notebook with Typescript kernel (on NodeJS). It also has the default Python kernel.
