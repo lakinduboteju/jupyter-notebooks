@@ -1,8 +1,0 @@
-from debian:bookworm-slim
-run apt update -y
-run apt install -y python3-notebook jupyter nodejs npm
-run npm install -g itypescript
-run its --install=global
-workdir /notebook
-cmd ["jupyter", "notebook", "--allow-root", "--ip", "0.0.0.0", "--no-browser"]
-expose 8888
